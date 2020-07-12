@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Coverciones </title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript" src="logic.js"></script>
+</head>
+<body>
+<section>
+	<h1>Sistema de converciones</h1>
+	<p>Ingrese sus metros</p>
+	<input type="number" id="metros" ><br>
+
+	<p>seleccione su convercion</p>
+	<select id="tipo">
+		
+		<option>Ninguno</option>
+		<option>Centimetros</option>
+		<option>Kilometros</option>
+		<option>Pulgadas</option>
+	</select>
+	<button onclick="Calculate()">Calcular conversion</button>
+	<h3 id="result"></h3>
+	<button onclick="reload()">Nuevo </button>
+</section>
+</body>
+</html>
